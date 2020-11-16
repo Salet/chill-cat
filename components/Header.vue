@@ -1,16 +1,82 @@
 <template>
-  <div class="w-full flex justify-between items-center mb-16">
-    <div class="flex items-center">
-      <NuxtLink to="/"><h1 class="text-2xl">Chill Cat</h1></NuxtLink>
-      <NuxtLink to="/gallery" class="ml-8">Gallery</NuxtLink>
-      <NuxtLink to="/animal-behavior" class="ml-8">Animal behavior</NuxtLink>
-      <NuxtLink to="/anatomy" class="ml-8">Anatomy</NuxtLink>
-      <NuxtLink to="/habitat" class="ml-8">Habitat</NuxtLink>
-      <NuxtLink to="/diet" class="ml-8">Diet</NuxtLink>
-      <NuxtLink to="/classification" class="ml-8">Classification</NuxtLink>
+  <div>
+    <div class="mb-16">
+      <nav
+        class="w-full flex items-center justify-between flex-wrap bg-teal-500 p-6"
+      >
+        <div class="flex items-center flex-shrink-0 text-white mr-6">
+          <svg
+            class="fill-current h-8 w-8 mr-2"
+            width="54"
+            height="54"
+            viewBox="0 0 54 54"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z"
+            />
+          </svg>
+          <NuxtLink to="/">
+            <span class="font-semibold text-xl tracking-tight">
+              Chill Cat
+            </span>
+          </NuxtLink>
+        </div>
+        <div class="block lg:hidden">
+          <button
+            class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white"
+          >
+            <svg
+              class="fill-current h-3 w-3"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title>Menu</title>
+              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+            </svg>
+          </button>
+        </div>
+        <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+          <div class="text-sm lg:flex-grow">
+            <NuxtLink
+              to="/gallery"
+              class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
+            >
+              Gallery
+            </NuxtLink>
+            <NuxtLink
+              to="/anatomy"
+              class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
+              >Anatomy</NuxtLink
+            >
+            <NuxtLink
+              to="/habitat"
+              class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
+              >Habitat</NuxtLink
+            >
+            <NuxtLink
+              to="/diet"
+              class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
+              >Diet</NuxtLink
+            >
+            <NuxtLink
+              to="/classification"
+              class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
+              >Classification</NuxtLink
+            >
+            <NuxtLink
+              to="/animal-behavior"
+              class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
+            >
+              Animal behavior
+            </NuxtLink>
+          </div>
+        </div>
+      </nav>
     </div>
-    <img src="~/assets/cat.png" class="w-64 rounded-xl" />
   </div>
 </template>
+
+<style scoped></style>
 
 <style scoped></style>

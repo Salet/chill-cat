@@ -1,5 +1,8 @@
 <template>
-  <div class="w-full text-left">This is a website about Chill Cat</div>
+  <div class="w-full text-left">
+    This is a website about Chill Cat
+    <img src="~/assets/cat.png" class="w-64 rounded-xl" />
+  </div>
 </template>
 
 <script>
