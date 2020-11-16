@@ -5,7 +5,7 @@
         class="w-full flex items-center justify-between flex-wrap bg-black p-6"
       >
         <div class="flex items-center flex-shrink-0 text-white mr-6">
-          <img src="~/assets/cat-ico.png" />
+          <img src="~/assets/cat-ico.png" class="ico" />
           <NuxtLink to="/">
             <span class="font-semibold text-xl tracking-tight">
               Chill Cat
