@@ -29,4 +29,25 @@ html {
   max-width: 1200px;
   margin: 20px auto;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply my-4;
+}
+
+h1 {
+  @apply text-2xl;
+}
+
+h2 {
+  @apply text-xl;
+}
+
+h3 {
+  @apply text-lg;
+}
 </style>
