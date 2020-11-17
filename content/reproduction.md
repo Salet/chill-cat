@@ -1,0 +1,9 @@
+## Reproduction
+
+Female cats called queens are polyestrous with several estrus cycles during a year, lasting usually 21 days. They are usually ready to mate between early February and August.
+
+Several males, called tomcats, are attracted to a female in heat. They fight over her, and the victor wins the right to mate. At first, the female rejects the male, but eventually, the female allows the male to mate. The female utters a loud yowl as the male pulls out of her because a male cat's penis has a band of about 120–150 backward-pointing penile spines, which are about 1 mm (1⁄32 in) long; upon withdrawal of the penis, the spines may provide the female with increased sexual stimulation, which acts to induce ovulation.
+
+After mating, the female cleans her vulva thoroughly. If a male attempts to mate with her at this point, the female attacks him. After about 20 to 30 minutes, once the female is finished grooming, the cycle will repeat. Because ovulation is not always triggered by a single mating, females may not be impregnated by the first male with which they mate. Furthermore, cats are superfecund; that is, a female may mate with more than one male when she is in heat, with the result that different kittens in a litter may have different fathers.
+
+Cats are ready to go to new homes at about 12 weeks of age, when they are ready to leave their mother. They can be surgically sterilized (spayed or castrated) as early as seven weeks to limit unwanted reproduction. This surgery also prevents undesirable sex-related behavior, such as aggression, territory marking (spraying urine) in males and yowling (calling) in females. Traditionally, this surgery was performed at around six to nine months of age, but it is increasingly being performed before puberty, at about three to six months. In the United States, about 80% of household cats are neutered.
