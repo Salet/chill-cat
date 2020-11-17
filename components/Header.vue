@@ -56,6 +56,12 @@
             >
               Animal behavior
             </NuxtLink>
+            <NuxtLink
+              to="/reproduction"
+              class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
+            >
+              Reproduction
+            </NuxtLink>
           </div>
         </div>
       </nav>
