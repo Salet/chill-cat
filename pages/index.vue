@@ -35,7 +35,4 @@ export default {}
 </script>
 
 <style>
-.card-bg {
-  background: aliceblue;
-}
 </style>

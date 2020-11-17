@@ -1,14 +1,17 @@
 <template>
   <div class="cont">
-    <Header />
-    <Nuxt />
+    <div>
+      <Header />
+      <Nuxt />
+    </div>
+    <span class="text-sm">2020 © Chill Cat</span>
   </div>
 </template>
 
 <style>
 html {
-  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, sans-serif;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -27,8 +30,8 @@ html {
 }
 
 .cont {
+  @apply flex flex-col justify-between min-h-screen py-4 mx-auto;
   max-width: 1200px;
-  margin: 20px auto;
 }
 
 h1,
