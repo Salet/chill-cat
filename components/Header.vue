@@ -2,7 +2,7 @@
   <div>
     <div class="mb-16">
       <nav
-        class="w-full flex items-center justify-between flex-wrap bg-black p-6"
+        class="w-full flex items-center justify-between flex-wrap bg-black p-6 rounded-xl"
       >
         <div class="flex items-center flex-shrink-0 text-white mr-6">
           <img src="~/assets/cat-ico.png" class="ico" />
