@@ -1,7 +1,32 @@
 <template>
-  <div class="w-full text-left">
-    This is a website about Chill Cat
-    <img src="~/assets/cat.png" class="w-64 rounded-xl" />
+  <div class="flex justify-center">
+    <div class="max-w-2xl rounded overflow-hidden shadow-lg bg-blue-300">
+      <img
+        class="w-full"
+        src="~/assets/cat.png"
+        alt="Sunset in the mountains"
+      />
+      <div class="px-6 py-4">
+        <div class="font-bold text-xl mb-2">Hello Cat Lovers!</div>
+        <p class="text-gray-700 text-base">
+          This is official page of the chill cat, the domestic cat from
+          Katowice. We'd like to present you details and animal habitat,
+          anatomy, behaviour, diet and other interesting facts. Our Mission: We
+          present the chill cat for primary school children, who need to prepare
+          for school projects. The website is a collection of great resources
+          that helps kids create great presentations and essays. Unlike
+          Wikipedia & other online resources, Our Product is targeted
+          specifically for children aged 6-10.
+        </p>
+      </div>
+      <div class="px-6 pt-4 pb-2">
+        <span
+          class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2"
+        >
+          © Chill Cat Corporation 2020, Katowice, Brynów
+        </span>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -10,39 +35,7 @@ export default {}
 </script>
 
 <style>
-/* Sample `apply` at-rules with Tailwind CSS
-.container {
-@apply min-h-screen flex justify-center items-center text-center mx-auto;
-}
-*/
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
+.card-bg {
+  background: aliceblue;
 }
 </style>
