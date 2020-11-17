@@ -3,9 +3,9 @@
     <div class="mb-16">
       <nav class="w-full flex items-center justify-between flex-wrap bg-black p-6 rounded-xl">
         <div class="flex items-center flex-shrink-0 text-white mr-6">
-          <img src="~/assets/cat-ico.png" class="ico" />
+          <img src="~/assets/cat-ico.png" class="w-12" />
           <NuxtLink to="/">
-            <span class="font-semibold text-xl tracking-tight"> Chill Cat </span>
+            <p class="font-semibold text-xl tracking-tight ml-2">Chill Cat</p>
           </NuxtLink>
         </div>
         <div class="block lg:hidden">
@@ -25,42 +25,12 @@
         <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
           <div class="text-sm lg:flex-grow">
             <NuxtLink
-              to="/gallery"
+              v-for="link in links"
+              :key="link.slug"
+              :to="link.slug"
               class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
             >
-              Gallery
-            </NuxtLink>
-            <NuxtLink
-              to="/anatomy"
-              class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
-              >Anatomy</NuxtLink
-            >
-            <NuxtLink
-              to="/habitat"
-              class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
-              >Habitat</NuxtLink
-            >
-            <NuxtLink
-              to="/diet"
-              class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
-              >Diet</NuxtLink
-            >
-            <NuxtLink
-              to="/classification"
-              class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
-              >Classification</NuxtLink
-            >
-            <NuxtLink
-              to="/animal-behavior"
-              class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
-            >
-              Animal behavior
-            </NuxtLink>
-            <NuxtLink
-              to="/reproduction"
-              class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
-            >
-              Reproduction
+              {{ link.title }}
             </NuxtLink>
           </div>
         </div>
@@ -69,13 +39,20 @@
   </div>
 </template>
 
-<style scoped>
-.ico {
-  width: 50px;
+<script>
+export default {
+  data() {
+    return {
+      links: [
+        { slug: '/gallery', title: 'Gallery' },
+        { slug: '/anatomy', title: 'Anatomy' },
+        { slug: '/habitat', title: 'Habitat' },
+        { slug: '/diet', title: 'Diet' },
+        { slug: '/classification', title: 'Classification' },
+        { slug: '/animal-behavior', title: 'Animal behavior' },
+        { slug: '/reproduction', title: 'Reproduction' },
+      ],
+    }
+  },
 }
-.bg-black {
-  background-color: black;
-}
-</style>
-
-<style scoped></style>
+</script>
