@@ -24,12 +24,8 @@
         </div>
         <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
           <div class="text-sm lg:flex-grow">
-            <NuxtLink
-              v-for="link in links"
-              :key="link.slug"
-              :to="link.slug"
-              class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
-            >
+            <a href="https://scrum-zoo.netlify.app" class="link">Scrum Zoo</a>
+            <NuxtLink v-for="link in links" :key="link.slug" :to="link.slug" class="link">
               {{ link.title }}
             </NuxtLink>
           </div>
@@ -56,3 +52,12 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+.link {
+  @apply block mt-4 inline-block mt-0 text-teal-200 mr-4;
+}
+.link:hover {
+  @apply text-white;
+}
+</style>
