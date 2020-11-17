@@ -1,6 +1,7 @@
 <template>
   <div class="flex justify-center">
     <div class="max-w-2xl rounded overflow-hidden shadow-lg bg-blue-300">
+      <div class="font-bold text-xl mb-5">SCRUM ZOO!</div>
       <img class="w-full" src="~/assets/cat.png" alt="Sunset in the mountains" />
       <div class="px-6 py-4">
         <div class="font-bold text-xl mb-2">Hello Cat Lovers!</div>
@@ -16,11 +17,13 @@
           presentations and essays. Unlike Wikipedia & other online resources, Our Product is
           targeted specifically for children aged 6-10.
         </p>
+        <p>
+          <a href="https://scrum-zoo.netlify.app/">Scrum Zoo Link!</a>
+        </p>
       </div>
     </div>
   </div>
 </template>
-
 <script>
 export default {}
 </script>
